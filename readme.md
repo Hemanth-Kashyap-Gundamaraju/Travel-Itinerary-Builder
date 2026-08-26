@@ -27,3 +27,15 @@ The Builder Pattern separates the step-by-step construction of a complex object 
 
 * **`ItineraryBuilderUnitTests.cs` (Client / Executive)**  
   Drives the construction sequence step-by-step and validates that the builder correctly yields configured `Itinerary` objects.
+
+ ## References & Acknowledgments
+
+
+* **Builder Design Pattern Theory**  
+  [GeeksforGeeks – Builder Design Pattern](https://www.geeksforgeeks.org/builder-design-pattern/)  
+  
+* **C# Implementation Patterns**  
+  [C# Corner – Builder Design Pattern using C#](https://www.c-sharpcorner.com/article/builder-design-pattern-using-c-sharp/)  
+
+* **Unit Testing Structure & Logging Pattern**  
+  [GitHub – Ramaswamy Krishnan-Chittur (Observer Pattern Demo)](https://github.com/chittur/observer-pattern-demo)  
