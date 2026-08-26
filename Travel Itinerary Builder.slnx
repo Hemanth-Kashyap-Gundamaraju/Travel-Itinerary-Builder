@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Travel Itinerary Builder.csproj" />
+  <Project Path="TravelItineraryBuilder.Tests/TravelItineraryBuilder.Tests.csproj" />
+</Solution>
