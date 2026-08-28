@@ -18,6 +18,7 @@ namespace Travel_Itinerary_Builder
     {
         public string FlightNo { get; set; }
         public string Airline { get; set; }
+        public int Price { get; set; }
         public Ticket Ticket { get; set; } = new Ticket();
     }
 
@@ -29,5 +30,6 @@ namespace Travel_Itinerary_Builder
         public string DriverName { get; set; }
         public string DriverPhoneNumber { get; set; }
         public string CarNumber { get; set; }
+        public int Fare { get; set; }
     }
 }

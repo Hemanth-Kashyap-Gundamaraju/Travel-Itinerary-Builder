@@ -1,27 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-<PropertyGroup>
-	<OutputType>Library</OutputType>
-	<TargetFramework>net8.0</TargetFramework>
-	<RootNamespace>Travel_Itinerary_Builder</RootNamespace>
-	<ImplicitUsings>disable</ImplicitUsings>
-	<Nullable>enable</Nullable>
-	<LangVersion>8.0</LangVersion>
-</PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>Travel_Itinerary_Builder</RootNamespace>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\Hemanth\source\repos\Travel Itinerary Builder\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\Hemanth\source\repos\Travel Itinerary Builder\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MSTest.TestAdapter" Version="4.3.3" />
-    <PackageReference Include="MSTest.TestFramework" Version="4.3.3" />
-  </ItemGroup>
 	<ItemGroup>
+		<EditorConfigFiles Remove="C:\Users\Hemanth\source\repos\Travel Itinerary Builder\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="C:\Users\Hemanth\source\repos\Travel Itinerary Builder\.editorconfig" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="TravelItineraryBuilder.Tests\**" />
 		<Compile Remove="obj\**" />
 	</ItemGroup>
+
 </Project>
